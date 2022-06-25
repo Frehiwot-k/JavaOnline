@@ -1,6 +1,8 @@
 package com.fundamentals;
 
+import com.fundamentals.exercises.Lesson6;
 import com.fundamentals.lessons.Lesson5;
+import com.fundamentals.exercises.Lesson5Exercises;
 
 public class Main {
     public static void main(String[] args){
@@ -17,9 +19,26 @@ public class Main {
         //Lesson3Ex myLesson3Ex = new Lesson3Ex();
         //myLesson3Ex.someMethod();
 
-        lesson5Examples();
+        //lesson5Examples();
+      //  Lesson5Ex();
+        lesson6Examples();
 
 }//end main method
+
+
+    public static void lesson6Examples(){
+        Lesson6 myLesson6 = new Lesson6();
+        myLesson6.exampleCharAt();
+        myLesson6.exampleEquals("Happy");
+        String myStr1 = myLesson6.exampleLowercase();
+        System.out.println(myStr1);
+        System.out.println(myLesson6.exampleUppercase());
+        myLesson6.exampleLength();
+        myLesson6.exampleBuilder("pizza",3);
+        myLesson6.exampleChar();
+        myLesson6.exampleEscape();
+
+    }//end lesson6Examples
 
     public static void lesson5Examples(){
         Lesson5 myLesson5 = new Lesson5();
@@ -32,6 +51,13 @@ public class Main {
         myLesson5.showConversions();
 
     }//end lesson5Examples method
+
+    public static void Lesson5Ex(){
+        Lesson5Exercises myLesson5Exercises = new Lesson5Exercises();
+        myLesson5Exercises.decimalEx();
+        myLesson5Exercises.narrowingConversion();
+        myLesson5Exercises.wideningConversion();
+    }
 
 }//end class
 
