@@ -1,4 +1,4 @@
-package com.fundamentals.exercises;
+package com.fundamentals.lessons;
 /*
 * string and more
 * */
